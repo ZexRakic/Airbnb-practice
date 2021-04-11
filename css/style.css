@@ -1,0 +1,291 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.87);
+  height: 57px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  background-color: black;
+  height: 830px;
+  padding: 110px 30px 0px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: rgb(243, 243, 243);
+  padding-top: 20px;
+  min-height: 300px;
+}
+
+table {
+  margin-left: 4%;
+}
+
+th {
+  font-size: 15px;
+  margin-right: 85px;
+  padding: 10px;
+  width: 25%;
+  text-align: left;
+}
+
+td {
+  font-size: 15px;
+  padding: 10px;
+}
+
+#headerText {
+  color: rgba(156, 154, 154, 0.829);
+}
+
+#main-picture {
+  width: 100%;
+  min-width: 10%;
+  min-height: 5%;
+}
+
+#mainBottomText {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  margin-top: 40px;
+
+  font-family: "Courier New", Courier, monospace;
+}
+
+.asian-and-racism {
+  margin-top: 80px;
+}
+
+.asian-and-pacific {
+  padding-left: 85px;
+  padding-right: 285px;
+  font-size: 218%;
+  font-weight: bolder;
+  float: left;
+  width: 50%;
+}
+
+.racism {
+  font-size: 131%;
+  margin-left: 50%;
+  margin-right: 370px;
+  font-family: cursive;
+}
+
+.learn-more-button {
+  margin-top: 25px;
+  padding: 10px 13px 10px 13px;
+  border-radius: 10%;
+}
+
+.eight-and-text {
+  margin-top: 70px;
+}
+
+.explore-text {
+  font-size: 35px;
+  font-weight: bolder;
+  padding-left: 85px;
+}
+
+.eight-avatars {
+  margin-top: 20px;
+  padding: 0 40px 30px 85px;
+}
+
+.first-row {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.first-avatar-and-text {
+  width: 25%;
+}
+
+.one {
+  border-radius: 15%;
+  float: left;
+}
+
+.onetext {
+  margin-left: 80px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.second-avatar-and-text {
+  width: 25%;
+}
+
+.two {
+  border-radius: 15%;
+  float: left;
+}
+
+.twotext {
+  margin-left: 80px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.third-avatar-and-text {
+  width: 25%;
+  display: flex;
+}
+
+.three {
+  border-radius: 15%;
+  float: left;
+}
+
+.threetext {
+  margin-left: 80px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fourth-avatar-and-text {
+  width: 25%;
+  flex-shrink: 100;
+}
+
+.four {
+  border-radius: 15%;
+  float: left;
+}
+
+.fourtext {
+  margin-left: 80px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.second-row {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.live-anywhere {
+  font-size: 35px;
+  font-weight: bolder;
+  padding-left: 85px;
+  padding-top: 85px;
+}
+
+.four-picture {
+  padding-top: 30px;
+  margin-bottom: 210px;
+}
+
+.anywhere-one {
+  margin-left: 85px;
+  float: left;
+}
+
+.anywhere-two {
+  float: left;
+  margin-left: 15px;
+}
+
+.anywhere-three {
+  float: left;
+  margin-left: 15px;
+}
+
+.anywhere-four {
+  float: left;
+  margin-left: 15px;
+}
+
+.sharingworld {
+  padding-top: 250px;
+  margin-left: 85px;
+  display: block;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.over-image-one {
+  color: rgb(231, 223, 223);
+  font-size: 53px;
+  position: absolute;
+  top: 49%;
+  left: 5%;
+}
+
+.over-image-two {
+  color: rgb(231, 223, 223);
+  font-size: 23px;
+  position: absolute;
+  top: 68%;
+  left: 5%;
+}
+
+.inspiration {
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 85px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 65px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ddd;
+}
+
+.active {
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.link-style {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a.link-style:hover {
+  text-decoration: underline;
+}
